@@ -1,2 +1,5 @@
 # enterprise-composer-app
-This is the final version of the composer app for web-425.
+## Contributors
+* Richard Krasso
+* Keith Hall
+#### This is the final version of the composer app for web-425.
