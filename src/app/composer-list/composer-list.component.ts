@@ -28,7 +28,7 @@ export class ComposerListComponent implements OnInit {
   constructor(private composerService: ComposerService) {
 
     this.composers = this.composerService.getComposers();
-    this.txtSearchControl.valueChanges.pipe(debounceTime(5000)).subscribe(val => this.filterComposers(val));
+    this.txtSearchControl.valueChanges.pipe(debounceTime(3000)).subscribe(val => this.filterComposers(val));
   }
   ngOnInit(): void {
   }
